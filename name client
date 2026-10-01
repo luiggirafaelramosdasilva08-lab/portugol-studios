@@ -1,0 +1,59 @@
+codigo:
+
+programa
+{
+	
+	funcao inicio()
+	{
+		 cadeia nome, vegetariano, dieta, pagamento
+	
+	   escreva("Qual seu nome? ")
+	   leia(nome)
+
+        escreva("É vegetariano? ")
+        leia(vegetariano)
+        
+
+        escreva("Está em dieta? ")
+        leia(dieta)
+        
+
+        se (vegetariano == "sim" e dieta == "sim")
+        {
+            escreva("Salada")
+        }
+        senao se (vegetariano == "não" e dieta == "sim")
+        {
+            escreva("Frango grelhado")
+        }
+        senao se (vegetariano == "sim" e dieta == "não")
+        {
+            escreva("Macarrão")
+        }
+        senao
+        {
+            escreva("Feijoada")
+        }
+
+        escreva(" Vai pagar com dinheiro ou cartão? ")
+        leia(pagamento)
+
+        se (pagamento == "dinheiro")
+        {
+            escreva("O cliente tem 15% de desconto")
+        }
+    }
+}
+Usuário informa se é vegetariano e se está em dieta → o programa verifica as condições → mostra o prato indicado.
+E você vai usar se, senão se e senão, junto com e/ou, para fazer essas decisões.
+
+Vegetariano	 Dieta	  Resultado
+sim ✅	     sim ✅	  🥗 Salada
+não ❌	     sim ✅	  🍗 Frango
+sim ✅	     não ❌ 	🍝 Macarrão
+não ❌	     não ❌ 	 🫘 Feijoada
+
+se = primeira possibilidade
+senao se = outra possibilidade
+senao = qualquer coisa que sobrou
+		 
