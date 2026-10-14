@@ -66,3 +66,11 @@ Termos do código 📚
 ➕ i++ = aumenta 1
 💰 total_recebido = soma do dinheiro recebido
 🎁 clientes_desconto = conta quem recebeu desconto
+🔢 i = indica a posição do cliente no vetor.
+🛒 compras[i] = pega o valor da compra naquela posição.
+Exemplo:
+- compras[0] = compra do 1º cliente 👤
+- compras[1] = compra do 2º cliente 👤
+- compras[2] = compra do 3º cliente 👤
+🔁 O i muda de 0 até 5 para passar pelos 6 clientes.
+Resumindo: i = posição do cliente no vetor. ✅
