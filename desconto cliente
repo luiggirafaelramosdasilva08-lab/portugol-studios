@@ -51,3 +51,18 @@ programa
         escreva("\n-----------------------------")
     }
 }
+
+Usuário informa o desconto e os valores das compras → o programa verifica as condições → calcula o valor a pagar → mostra os resultados finais. 💻
+E você vai usar real, inteiro, cadeia, leia, escreva, para, se e senao para fazer essas operações. ⚙️
+Termos do código 📚
+🔢 real = números com vírgula
+🔢 inteiro = números inteiros
+📝 cadeia = textos, como nomes
+⌨️ leia = recebe informações
+🖥️ escreva = mostra informações na tela
+🔁 para = repete uma tarefa
+✅ se = primeira possibilidade
+➡️ senao = qualquer coisa que sobrou
+➕ i++ = aumenta 1
+💰 total_recebido = soma do dinheiro recebido
+🎁 clientes_desconto = conta quem recebeu desconto
