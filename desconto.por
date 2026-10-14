@@ -49,14 +49,25 @@ programa
         escreva("\n-----------------------------")
     }
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1388; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
+Usuário informa o desconto e os valores das compras → o programa verifica as condições → calcula o valor a pagar → mostra os resultados finais. 💻
+E você vai usar real, inteiro, cadeia, leia, escreva, para, se e senao para fazer essas operações. ⚙️
+Termos do código 📚
+🔢 real = números com vírgula
+🔢 inteiro = números inteiros
+📝 cadeia = textos, como nomes
+⌨️ leia = recebe informações
+🖥️ escreva = mostra informações na tela
+🔁 para = repete uma tarefa
+✅ se = primeira possibilidade
+➡️ senao = qualquer coisa que sobrou
+➕ i++ = aumenta 1
+💰 total_recebido = soma do dinheiro recebido
+🎁 clientes_desconto = conta quem recebeu desconto
+🔢 i = indica a posição do cliente no vetor.
+🛒 compras[i] = pega o valor da compra naquela posição.
+Exemplo:
+- compras[0] = compra do 1º cliente 👤
+- compras[1] = compra do 2º cliente 👤
+- compras[2] = compra do 3º cliente 👤
+🔁 O i muda de 0 até 5 para passar pelos 6 clientes.
+Resumindo: i = posição do cliente no vetor. ✅
