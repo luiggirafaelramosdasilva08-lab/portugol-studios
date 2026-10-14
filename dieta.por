@@ -44,14 +44,15 @@ programa
 }
 
 		 
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 855; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
+Usuário informa se é vegetariano e se está em dieta → o programa verifica as condições → mostra o prato indicado.
+E você vai usar se, senão se e senão, junto com e/ou, para fazer essas decisões.
+
+Vegetariano	 Dieta	  Resultado
+sim ✅	     sim ✅	  🥗 Salada
+não ❌	     sim ✅	  🍗 Frango
+sim ✅	     não ❌ 	🍝 Macarrão
+não ❌	     não ❌ 	 🫘 Feijoada
+
+se = primeira possibilidade
+senao se = outra possibilidade
+senao = qualquer coisa que sobrou
